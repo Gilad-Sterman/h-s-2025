@@ -1,0 +1,17 @@
+.app-header {
+    margin: .5rem;
+    padding: .5rem;
+    border-radius: .5rem;
+    background-color: $clr-header;
+    height: 80px;
+    position: sticky;
+    top: .5rem;
+    display: flex;
+    align-items: center;
+    z-index: 11;
+
+    nav {
+        display: flex;
+        gap: 1rem;
+    }
+}

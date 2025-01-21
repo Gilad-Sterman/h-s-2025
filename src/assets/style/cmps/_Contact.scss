@@ -1,0 +1,50 @@
+.contact {
+    background-color: $clr-section-blush-deep;
+    padding-bottom: .5rem;
+    height: 100vh;
+
+    .card-container {
+        margin: auto;
+        width: 80%;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        justify-content: center;
+        gap: 1rem;
+
+        .card {
+            background-color: $clr-section-blue-light;
+            border-radius: .5rem;
+            padding: 1rem;
+        }
+    }
+
+    .btn-contact {
+        background-color: $clr-secondary;
+        margin: auto;
+        margin-block: 1rem;
+
+        a {
+            font-size: 1rem;
+            color: $clr-primary;
+        }
+
+        &:hover {
+            background-color: $clr-section-blue-light;
+        }
+    }
+
+    .links {
+        display: flex;
+        gap: 1rem;
+        width: max-content;
+        margin: auto;
+
+        a {
+            width: 60px;
+            height: 60px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+    }
+}

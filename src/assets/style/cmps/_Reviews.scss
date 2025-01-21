@@ -1,0 +1,30 @@
+.reviews {
+    background-color: $clr-section-blush-deep;
+    padding-bottom: .5rem;
+
+    .card-container {
+        margin: auto;
+        width: 80%;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        justify-content: center;
+        gap: 1rem;
+
+        .card {
+            background-color: $clr-section-blue-light;
+            border-radius: .5rem;
+            padding: 1rem;
+        }
+    }
+
+    .btn-add-review {
+        background-color: $clr-secondary;
+        margin: auto;
+        margin-block: 1rem;
+        font-size: 1rem;
+
+        &:hover {
+            background-color: $clr-section-blue-light;
+        }
+    }
+}

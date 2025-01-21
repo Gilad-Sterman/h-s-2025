@@ -1,0 +1,53 @@
+.home-page {
+    .hero {
+        padding-top: 2rem;
+        height: 90vh;
+        background-color: $clr-section-blush-light;
+
+        p {
+            text-align: justify;
+            font-size: 1.75re;
+            line-height: 2rem;
+        }
+    }
+
+    h1 {
+        margin-block: 2rem;
+        font-size: 3.5rem;
+        text-align: center;
+    }
+
+    h2 {
+        font-size: 2.5rem;
+        color: $clr-bg;
+    }
+
+    h4 {
+        text-align: center;
+        font-size: 2rem;
+    }
+
+    h5 {
+        text-align: center;
+        font-size: 1.5rem;
+        font-style: italic;
+    }
+
+    .pill {
+        width: max-content;
+        padding: .25rem 2rem;
+        border-radius: 5rem;
+        background-color: $clr-primary;
+        margin: auto;
+        margin-block: 2rem;
+    }
+
+    .about-me,
+    .why-me,
+    .offers,
+    .reviews,
+    .for-who,
+    .contact {
+        padding-top: 80px;
+    }
+}

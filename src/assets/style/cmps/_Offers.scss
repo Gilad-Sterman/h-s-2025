@@ -1,0 +1,33 @@
+.offers {
+    background-color: $clr-section-blue-light;
+    padding-bottom: .5rem;
+
+    .card-container {
+        margin: auto;
+        width: 80%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        gap: 1rem;
+
+        .card {
+            background-color: $clr-section-blush-light;
+            border-radius: .5rem;
+            padding: 1rem;
+        }
+    }
+
+    .btn-contact {
+        background-color: $clr-primary;
+        margin: auto;
+        margin-block: 1rem;
+
+        a {
+            font-size: 1rem;
+        }
+
+        &:hover {
+            background-color: $clr-secondary;
+        }
+    }
+}
